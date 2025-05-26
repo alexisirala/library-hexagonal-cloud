@@ -115,15 +115,3 @@
 ### Networking
 - **Bridge Network**: Red privada entre contenedores
 - **Port Mapping**: Exposición selectiva de puertos
-
-## Configuración de Producción
-
-Para un entorno de producción, se recomienda:
-
-1. **Secrets Management**: Usar Docker Secrets o sistemas externos
-2. **Load Balancer**: Nginx o Traefik para distribución de carga
-3. **Monitoring**: Prometheus + Grafana
-4. **Logging**: ELK Stack o similar
-5. **CI/CD**: Pipeline automatizado con Docker Registry
-6. **Security**: Escaneo de vulnerabilidades en imágenes
-7. **Backup**: Estrategia automatizada para volúmenes

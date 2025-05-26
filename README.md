@@ -115,13 +115,6 @@ docker-compose down -v
 docker-compose build --no-cache
 ```
 
-## Diferencias con la Versión Monolítica
-
-### Monolítica:
-- Un solo proceso ejecutándose
-- Base de datos SQLite local
-- Ejecución directa con `php artisan serve`
-
 ### Cloud Native:
 - Servicios separados en contenedores
 - Base de datos MySQL en contenedor dedicado

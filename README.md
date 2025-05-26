@@ -28,7 +28,6 @@ library-hexagonal-cloud/
 
 ### Documentación
 - **Ubicación**: `./docs/`
-- **Incluye**: Arquitectura, comparaciones, deployment
 
 ## 🛠️ Configuración como Subtrees (Opcional)
 
